@@ -108,7 +108,7 @@ import Header from "./components/Header.vue";
               <p class="text-sm md:text-xl text-white font-medium">
                 Salt Massage
               </p>
-              <div class="flex flex-row justify-between items-center w-[350px]">
+              <div class="flex flex-row justify-between items-center w-full md:w-[350px]">
                 <p class="text-sm md:text-base text-white">60 Minutes</p>
                 <p class="text-sm md:text-base text-white">$115</p>
               </div>
@@ -119,7 +119,7 @@ import Header from "./components/Header.vue";
           <div class="bg-[url('@/assets/raphael-lovaski-Pe9IXUuC6QU-unsplash1.png')] bg-contain bg-center bg-no-repeat w-[408px] h-[614px] relative">
             <div class="flex flex-col absolute bottom-1/10 gap-4 bg-black/20 w-full md:w-[408px] h-[300px] justify-end p-4">
               <p class="text-sm md:text-xl text-white font-medium">Body Care</p>
-              <div class="flex flex-row justify-between items-center w-[350px]">
+              <div class="flex flex-row justify-between items-center w-full md:w-[350px]">
                 <p class="text-sm md:text-base text-white">60 Minutes</p>
                 <p class="text-sm md:text-base text-white">$109</p>
               </div>
@@ -132,7 +132,7 @@ import Header from "./components/Header.vue";
               <p class="text-sm md:text-xl text-white font-medium">
                 Face Treatments
               </p>
-              <div class="flex flex-row justify-between items-center w-[350px]">
+              <div class="flex flex-row justify-between items-center w-full md:w-[350px]">
                 <p class="text-sm md:text-base text-white">60 Minutes</p>
                 <p class="text-sm md:text-base text-white">$89</p>
               </div>
