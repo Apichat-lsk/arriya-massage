@@ -11,7 +11,7 @@ import Header from "./components/Header.vue";
     <Header />
     <div class="w-full md:h-[60vh]">
       <div
-        class="hidden md:flex justify-center items-center absolute top-0 right-1/10 w-[960px] h-[1176px]"
+        class="hidden md:flex justify-center items-center absolute top-0 right-0 w-[960px] h-[1176px]"
       >
         <img
           class="object-top object-contain w-[1122px] h-[1031px] absolute top-1/12"
