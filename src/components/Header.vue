@@ -37,12 +37,12 @@
       </svg>
     </button>
   </div>
-  <div v-show="true" class="fixed z-40 flex flex-col justify-start items-center gap-10 p-10 w-full bg-white text-black transition-all duration-200 ease-in-out transform" :class="menuOpen
+  <div v-show="true" class="fixed z-40 flex flex-col justify-start items-center p-10 w-full bg-white text-black transition-all duration-200 ease-in-out transform" :class="menuOpen
     ? 'opacity-100 scale-100 pointer-events-auto'
     : 'opacity-0 scale-95 pointer-events-none'
     ">
     <img class="object-center object-contain w-[320px] h-[320px]" src="@/assets/arriya-logo-removebg-preview.png" alt="Logo" />
-    <ul class="list-none gap-10 w-full text-center flex flex-col -translate-y-20">
+    <ul class="list-none gap-5 w-full text-center flex flex-col -translate-y-20">
       <li @click="scrollTo('home')" class="cursor-pointer font-krub">หน้าหลัก</li>
       <li @click="scrollTo('about')" class="cursor-pointer font-krub">เกี่ยวกับเรา</li>
       <li @click="scrollTo('services')" class="cursor-pointer font-krub">บริการ</li>
