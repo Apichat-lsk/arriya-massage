@@ -4,8 +4,16 @@
 @import "tailwindcss/utilities";
 
 * {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Krub", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-krub {
+  font-family: "Krub", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
