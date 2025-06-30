@@ -26,7 +26,7 @@ import Footer from "./components/Footer.vue";
           <img class="object-top object-contain w-[172px] h-[118px] absolute top-1/2 translate-x-25 translate-y-60" src="@/assets/Group.png" />
         </div>
       </div>
-      <div class="md:hidden flex w-full flex-col justify-center items-center text-center mt-[60vh]">
+      <div class="md:hidden flex w-full flex-col justify-center items-center text-center mt-[80vh]">
         <p class="text-xl md:text-3xl text-[#507061] font-bold w-full text-center md:text-left ">ยินดีต้อนรับ</p>
         <p class="text-2xl md:text-5xl text-[#507061] font-bold w-full text-center md:text-left ">“อารียานวดเพื่อสุขภาพ”</p>
       </div>
