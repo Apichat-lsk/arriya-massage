@@ -6,7 +6,7 @@ import Footer from "./components/Footer.vue";
 <template>
   <main class="">
     <img class="object-top object-contain absolute top-0 w-[960px] max-h-[1176px] z-[-10]" src="@/assets/Maskgroup.png" />
-    <div class="flex flex-col justify-center items-start absolute top-[60vh] md:top-1/12 translate-y-20 w-full h-[100px] md:translate-x-10 md:translate-y-50 md:gap-8">
+    <div class="hidden md:flex flex-col justify-center items-start absolute  md:top-1/12 translate-y-20 w-full h-[100px] md:translate-x-10 md:translate-y-50 md:gap-8">
       <p class="text-xl md:text-3xl text-[#507061] font-bold w-full text-center md:text-left ">ยินดีต้อนรับ</p>
       <p class="text-2xl md:text-5xl text-[#507061] font-bold w-full text-center md:text-left ">“อารียานวดเพื่อสุขภาพ”</p>
     </div>
@@ -26,7 +26,11 @@ import Footer from "./components/Footer.vue";
           <img class="object-top object-contain w-[172px] h-[118px] absolute top-1/2 translate-x-25 translate-y-60" src="@/assets/Group.png" />
         </div>
       </div>
-      <div class="w-full flex justify-center items-center text-center mt-[80vh]">
+      <div class="md:hidden flex w-full flex-col justify-center items-center text-center mt-[60vh]">
+        <p class="text-xl md:text-3xl text-[#507061] font-bold w-full text-center md:text-left ">ยินดีต้อนรับ</p>
+        <p class="text-2xl md:text-5xl text-[#507061] font-bold w-full text-center md:text-left ">“อารียานวดเพื่อสุขภาพ”</p>
+      </div>
+      <div class="w-full flex justify-center items-center text-center mt-[10vh] md:mt-[80vh]">
         <p class="text-black text-3xl md:text-[40px] font-medium ">
           “ให้ร่างกายได้รับการผ่อนคลาย ด้วยการบริการของเรา”
         </p>
